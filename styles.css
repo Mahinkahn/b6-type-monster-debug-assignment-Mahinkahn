@@ -190,7 +190,21 @@ button {
     width: 100%;
   }
 
+  #question {
+    min-height: 143px;
+    padding: 10px;
+    text-align: center;
+  }
+
   .card {
     flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  div#histories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
   }
 }

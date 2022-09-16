@@ -170,6 +170,9 @@ button {
       rgba(255, 255, 255, 0.05) 99.85%);
   backdrop-filter: blur(5px);
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 #modal-background {
@@ -207,4 +210,6 @@ button {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
+
+
 }
